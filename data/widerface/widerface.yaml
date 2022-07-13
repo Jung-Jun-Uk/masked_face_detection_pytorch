@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train_dir: '/data/data_server/jju/datasets/FACE/widerface/widerface/train/images' 
+train: 'data/widerface/wider_face_train_bbx_gt.txt'
+
+val_dir: '/data/data_server/jju/datasets/FACE/widerface/widerface/val/images' 
+val: 'data/widerface/wider_face_val_bbx_gt.txt'
+# number of classes
+nc: 1
+
+# class names
+names: ['face']

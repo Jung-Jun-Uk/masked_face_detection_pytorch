@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train_dir: '/data/data_server/jju/datasets/FACE/PWMFD/PWMFD_Train' 
+train: 'data/pwmfd_train'
+
+val_dir: '/data/data_server/jju/datasets/FACE/PWMFD/PWMFD_Val' 
+val: 'data/pwmfd_val'
+# number of classes
+nc: 3
+
+# class names
+names: ['without_mask', with_mask, incorrect_mask]
